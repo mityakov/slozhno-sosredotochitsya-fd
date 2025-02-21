@@ -73,7 +73,7 @@
     pointer-events: none;
   }
   
-  .theme-light .header__theme-menu-button:focus{
+  .theme-light .header__theme-menu-button:focus {
     outline: none;
   } 
   
