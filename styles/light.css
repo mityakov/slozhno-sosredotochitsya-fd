@@ -16,7 +16,9 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    /* Дублируем переменные светлой темы */  
+    /*
+    Дублируем переменные светлой темы
+    */
     --color-dark_green: #353430;
     --color-dark_green_opacity: rgb(49, 53, 48, 0.4);
     --color-Cotton_candy: #FFC2E6;
