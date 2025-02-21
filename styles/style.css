@@ -223,7 +223,7 @@
   max-inline-size: 100%;
   min-block-size: 100%;
   object-fit: cover;
-  justify-content: center; 
+  justify-content: center;
   align-items: center;
 }
 
@@ -266,10 +266,6 @@
   color: var(--color-fuchsia);
   text-shadow: 4px 4px var( --color-purple);
   justify-self: center;
-}
-
-.title-block__three {
-  margin-block-start: -2px;
 }
 
 @media (width >= 768px) {
@@ -425,6 +421,11 @@
   .paragraf__title {
     margin-block-start: -30px;
   }
+
+  .content-block {
+    margin-inline-start: 0px;
+}
+
   .block__two {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
