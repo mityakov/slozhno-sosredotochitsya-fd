@@ -14,9 +14,22 @@
   --color-dark_blu: #000028;
   --color-lavender: #F1B2CE;
   
-  --bg-image: url(../images/cover-image-dark.pnd);
+  --bg-image: url("../images/cover-image-dark.pnd");
   --font-family_Mono: "IBM Plex Mono";
   --font-size_text: 18px;
+  --decor: var(--color-purple);
+  --header__theme-menu: var(--color-purple);
+  --button-hover: var(--color-purple_opacity);
+  --button: var(--color-purple);
+  --title: var(--color-fuchsia);
+  --text-shadow: var(--color-purple);
+  --paragraf__title: var(--color-dark_blu);
+  --content__paragraf: var(--color-lavender);
+  --link: var(--color-purple);
+  --link-focus: var(--color-lavender);
+  --content__title: var(--color-dark_blu);
+  --style: var(--color-purple);
+  --title-decor: var(--color-purple);
 }
 
 .theme-dark .page {
