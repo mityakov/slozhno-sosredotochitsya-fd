@@ -5,6 +5,7 @@
   line-height: 23.4px;
   font-weight: var(--font-weight_bold);
  }
+
 .page {
   background-image: var(--bg-image);
   background-color: var(--color-dark_blu);
