@@ -4,7 +4,6 @@
   --color-fuchsia: #DB00FF;
   --color-dark_blu: #000028;
   --color-lavender: #F1B2CE;
-  --bg-image: url("../images/cover-image-dark.pnd");
   --font-family_Mono: "IBM Plex Mono, Bold, Regular";
   --font-size_text: 18px;
   --font-weight_normal: 400;
@@ -26,4 +25,5 @@
   --content__title: var(--color-dark_blu);
   --style: var(--color-purple);
   --title-decor: var(--color-purple);
+  --bg-image: url(../images/cover-image-dark.png);
 }

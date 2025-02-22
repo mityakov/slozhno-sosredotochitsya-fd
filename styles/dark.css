@@ -14,12 +14,11 @@
   --color-dark_blu: #000028;
   --color-lavender: #F1B2CE;
   
-  --bg-image: url(../images/cover-image-dark.pnd);
+
   --font-family_Mono: "IBM Plex Mono";
   --font-size_text: 18px;
   --color-purple: #ff0070;
   --color-purple_opacity: rgb(255, 0, 112, 0.4);
-  --bg-image: url("../images/cover-image-dark.pnd");
   --font-size_text: 18px;
   --font-weight_normal: 400;
   --font-weight_bold: 700;
@@ -40,10 +39,12 @@
   --content__title: var(--color-dark_blu);
   --style: var(--color-purple);
   --title-decor: var(--color-purple);
+  --bg-image: url(../images/cover-image-dark.png);
 }
 
 .theme-dark .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
-  
+  background-image: url(../images/cover-image-dark.png);
+  background-color: var(--color-dark_blu);
 }
 
