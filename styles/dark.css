@@ -11,25 +11,47 @@
   */
   
   --color-decor: var(--color-purple);
-  --color-text-header__theme-menu: var(--color-purple);
-  --color-button-hover: var(--color-purple_opacity);
+  --color-text-header-theme-menu: var(--color-purple);
+  --color-button-hover: var(--color-purple-opacity);
   --color-button: var(--color-purple);
   --color-title: var(--color-fuchsia);
   --color-text-shadow: var(--color-purple);
-  --color-paragraf__title: var(--color-dark_blu);
-  --color-content__paragraf: var(--color-lavender);
+  --color-paragraf-title: var(--color-dark-blue);
+  --color-content-paragraf: var(--color-lavender);
   --color-link: var(--color-purple);
   --color-link-focus: var(--color-lavender);
-  --color-content__title: var(--color-dark_blu);
-  --style: var(--color-purple);
+  --color-content-title: var(--color-dark-blue);
   --color-fon-title-decor: var(--color-purple);
   --bg-image: url(../images/cover-image-dark.png);
-  --color-h3: var(--color-dark_blu);
-  --color-fon: var(--color-dark_blu);
-  --url-color: var(--color-lavender);
+  --color-title-aricle: var(--color-dark-blue);
+  --color-fon: var(--color-dark-blue);
+  --color-main-url-hover: var(--color-lavender);
+  --color-article-block-title: var(--color-dark-blue);
 }
 
-.theme-dark .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
+.theme-dark .rec-element {
+  display: flex;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-decor: var(--color-purple);
+    --color-text-header-theme-menu: var(--color-purple);
+    --color-button-hover: var(--color-purple-opacity);
+    --color-button: var(--color-purple);
+    --color-title: var(--color-fuchsia);
+    --color-text-shadow: var(--color-purple);
+    --color-paragraf-title: var(--color-dark-blue);
+    --color-content-paragraf: var(--color-lavender);
+    --color-link: var(--color-purple);
+    --color-link-focus: var(--color-lavender);
+    --color-content-title: var(--color-dark-blue);
+    --color-fon-title-decor: var(--color-purple);
+    --bg-image: url(../images/cover-image-dark.png);
+    --color-title-aricle: var(--color-dark-blue);
+    --color-fon: var(--color-dark-blue);
+    --color-main-url-hover: var(--color-lavender);
+    --color-article-block-title: var(--color-dark-blue);
+  }
+
+}

@@ -4,33 +4,28 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-:root {
-  --color-decor: var(--color-dark_green);
-  --color-text-header__theme-menu: var(--color-dark_green);
-  --color-button-hover: var(--color-dark_green_opacity);
-  --color-button: var(--color-dark_green);
-  --color-title: var(--color-Cotton_candy);
-  --color-text-shadow: var(--color-purple_pink);
-  --color-paragraf__title: var(--color-dark_green);
-  --color-content__paragraf: var(--color-dark_green);
-  --color-link: var(--color-purple_pink);
-  --color-link-focus: var(--color-purple_pink);
-  --color-content__title: var(--color-dark_green);
-  --style: var(--color-purple_pink);
-  --color-fon-title-decor: var(--color-purple_pink);
-  --color-h3: var(--color-dark_green);
-  --color-fon: var(--color-lavander_fon);
-  --url-color: var(--color-dark_green);
-}
-
-.theme-light .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
-}
-
 :root.theme-light {
-   /*сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя */
+  --bg-image: url(../images/cover-image-light.png);
+  --color-decor: var(--color-dark-grey);
+  --color-text-header-theme-menu: var(--color-dark-grey);
+  --color-button-hover: var(--color-dark-grey-opacity);
+  --color-button: var(--color-dark-grey);
+  --color-title: var(--color-pink);
+  --color-text-shadow: var(--color-purple-pink);
+  --color-paragraf-title: var(--color-dark-grey);
+  --color-content-paragraf: var(--color-dark-grey);
+  --color-link: var(--color-purple-pink);
+  --color-link-focus: var(--color-purple-pink);
+  --color-content-title: var(--color-dark-grey);
+  --color-fon-title-decor: var(--color-purple-pink);
+  --color-title-aricle: var(--color-dark-grey);
+  --color-fon: var(--color-lavander-fon);
+  --color-main-url-hover: var(--color-dark-grey);
+  --color-article-block-title: var(--color-dark-grey);
+}
+
+.theme-light .rec-element {
+  display: none;
 }
 
 @media (prefers-color-scheme: light) {
@@ -38,23 +33,27 @@
     /*
     Дублируем переменные светлой темы
     */
-    --color-decor: var(--color-dark_green);
-    --color-text-header__theme-menu: var(--color-dark_green);
-    --color-button-hover: var(--color-dark_green_opacity);
-    --color-button: var(--color-dark_green);
-    --color-title: var(--color-Cotton_candy);
-    --color-text-shadow: var(--color-purple_pink);
-    --color-paragraf__title: var(--color-dark_green);
-    --color-content__paragraf: var(--color-dark_green);
-    --color-link: var(--color-purple_pink);
-    --color-link-focus: var(--color-purple_pink);
-    --color-content__title: var(--color-dark_green);
-    --style: var(--color-purple_pink);
-    --color-fon-title-decor: var(--color-purple_pink);
-    --color-h3: var(--color-dark_green);
-    --color-fon: var(--color-lavander_fon);
-    --url-color: var(--color-dark_green);
+    --bg-image: url(../images/cover-image-light.png);
+    --color-decor: var(--color-dark-grey);
+    --color-text-header-theme-menu: var(--color-dark-grey);
+    --color-button-hover: var(--color-dark-grey-opacity);
+    --color-button: var(--color-dark-grey);
+    --color-title: var(--color-pink);
+    --color-text-shadow: var(--color-purple-pink);
+    --color-paragraf-title: var(--color-dark-grey);
+    --color-content-paragraf: var(--color-dark-grey);
+    --color-link: var(--color-purple-pink);
+    --color-link-focus: var(--color-purple-pink);
+    --color-content-title: var(--color-dark-grey);
+    --color-fon-title-decor: var(--color-purple-pink);
+    --color-title-aricle: var(--color-dark-grey);
+    --color-fon: var(--color-lavander-fon);
+    --color-main-url-hover: var(--color-dark-grey);
+    --color-article-block-title: var(--color-dark-grey);
+  }
 
+  .rec-element {
+    display: none;
   }
 
 }

@@ -1,16 +1,16 @@
 :root {
   --color-purple: #ff0070;
-  --color-purple_opacity: rgb(255, 0, 112, 0.4);
+  --color-purple-opacity: rgb(255, 0, 112, 0.4);
   --color-fuchsia: #DB00FF;
-  --color-dark_blu: #000028;
+  --color-dark-blue: #000028;
   --color-lavender: #F1B2CE;
-  --font-family_Mono: "IBM Plex Mono";
-  --font-size_text: 18px;
-  --font-weight_normal: 400;
-  --font-weight_bold: 700;
-  --color-dark_green: #353430;
-  --color-dark_green_opacity: rgb(49, 53, 48, 0.4);
-  --color-Cotton_candy: #FFC2E6;
-  --color-purple_pink: #FF8DCB;
-  --color-lavander_fon: #FFF1F7;
+  --font-family-mono: "IBM Plex Mono";
+  --font-size-text: 18px;
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+  --color-dark-grey: #353430;
+  --color-dark-grey-opacity: rgb(49, 53, 48, 0.4);
+  --color-pink: #FFC2E6;
+  --color-purple-pink: #FF8DCB;
+  --color-lavander-fon: #FFF1F7;
 }
